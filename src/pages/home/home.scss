@@ -1,0 +1,97 @@
+page-home {
+
+    ion-content{
+        background-image: url('../../assets/imgs/welcome.jpg');
+        background-size: cover;
+        text-align: center;    
+    }
+    .img{
+        margin-top: 30px;
+        width: 120px;
+       border-radius: 80px;
+    }
+    .btn{
+        background: #386343;
+        text-align: center;
+        color: #fff;
+        padding: 12px;
+        border-radius: 30px;
+        cursor: pointer;
+        width: 200px;
+        height: 50px;
+        font-size: 24px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: sans-serif;
+        background-size: 400%;
+        z-index: 1;
+        box-shadow: 0 0 20px -5px;
+      }
+    //   .btn:hover{
+    //       animation: animate 8s linear infinite;
+    //   }
+    //   @keyframes animate{
+    //       0%{
+    //           background-position: 0%;
+    //       }
+    //       100%{
+    //           background-position: 400%;
+    //       }
+    //   }
+      
+    //   .btn::before{
+    //       content: '';
+    //       position: absolute;
+    //       top: -5px;
+    //       left: -5px;
+    //       right: -5px;
+    //       bottom: -5px;
+    //       z-index: -1;
+    //       background: linear-gradient(90deg,#03a9f4, #f441a5, #ffeb3b,#03a9f4 );
+    //       background-size: 400%;
+    //       border-radius: 40px;
+    //       filter: blur(20px);
+    //       opacity: 0;
+    //       transition: 0.5s;
+    
+    //   }
+    //   .btn:hover::before{
+    //     filter: blur(20px);
+    //     opacity: 1;
+    //     animation: animate 8s linear infinite;
+    
+    //   }
+
+      input[type=text], input[type=date
+      ]{
+          font-weight: bold;
+          color: white;
+
+          padding: 15px 32px;
+          text-decoration: none;
+          font-size: 16px;
+          margin: 5px;
+          width: 85%;
+          border: 2px solid rgba(0, 0, 0, 0.1);;
+          transition: all 0.5s ease-in-out;
+          height: 35px;
+          text-align: center;
+          margin: 0 auto;
+          margin-bottom: 10px;
+          background: rgba(0, 0, 0, 0.1);
+          border-radius: 20px;
+
+
+      }
+    
+}
+     
+      
+    
+
+ 
+    
+    
+
+
+
